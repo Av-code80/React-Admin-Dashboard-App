@@ -66,6 +66,25 @@ const Dashboard = () => {
             }
           />
         </Box>
+        <Box
+          gridColumn="span 3"
+          backgroundColor={colors.primary[400]}
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
+        >
+          <StatBox
+            title="431,225"
+            subtitle="Sales Obtained"
+            progress="0.50"
+            increase="+21%"
+            icon={
+              <PointOfSaleIcon
+                sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
+              />
+            }
+          />
+        </Box>
       </Box>
     </Box>
   );
