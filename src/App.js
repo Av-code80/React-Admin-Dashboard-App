@@ -11,7 +11,7 @@ import { ColorModeContext, useMode } from "./theme";
 import Invoices from "./scenes/invoices/Index";
 import Calendar from "./scenes/calendar/Index";
 import Bar from "./scenes/bar";
-// import Line from "./scenes/line";
+ import Line from "./scenes/line";
 import Pie from "./scenes/pie";
 // import Geography from "./scenes/geography";
 
@@ -36,11 +36,8 @@ function App() {
               <Route path="/faq" element={<FAQ />} />
               <Route path="/bar" element={<Bar />} />
               <Route path="/pie" element={<Pie />} />
-              {/*
-             
-             
               <Route path="/line" element={<Line />} />
-              
+              {/*
               />
               <Route path="/geography" element={<Geography />} /> */}
             </Routes>
