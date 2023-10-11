@@ -113,5 +113,4 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
     />
   );
 };
-
 export default LineChart;
